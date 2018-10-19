@@ -8,6 +8,7 @@ class Greeter extends Component{
     return (
       <div className={styles.root}>
         {config.greetText}
+        <div>child message</div>
       </div>
     );
   }
